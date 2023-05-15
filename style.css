@@ -39,11 +39,28 @@ ul {
     align-items: center;
     padding: 5vw 10vw 0 10vw;
 }
-
+.hero-text {
+    width: 50%;
+}
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding-right: 5vh;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    filter: contrast(80%);
+    padding-right: 10vh;
+}
+
+.hero-image-container {
+    width: 50%;
+    background-color: gray;
+
+
 }
 
 a {
