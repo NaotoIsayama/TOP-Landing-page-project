@@ -36,15 +36,20 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 5vw 12vw 0 12vw;
+    height: 45vh;
+    margin: 0vh 0vh 5vh 0vh;
 }
+
 .hero-text {
     width: 50%;
 }
+
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     padding-right: 5vh;
+    margin-bottom: 5vh;
 }
 
 .hero-subtext {
@@ -55,9 +60,14 @@ ul {
 }
 
 .hero-image-container {
-    background-color: gray;    
+    background-color: rgb(127, 135, 141);    
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 5vh;
 }
 
 button {
