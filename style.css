@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw 0 10vw;
+    padding: 0 12vw 0 12vw;
 }
 
 .header-logo-container {
@@ -27,9 +27,7 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
-
     color: #E5E7EB;
-
 }
 
 .hero-banner {
@@ -37,7 +35,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5vw 10vw 0 10vw;
+    padding: 5vw 12vw 0 12vw;
 }
 .hero-text {
     width: 50%;
@@ -57,15 +55,23 @@ ul {
 }
 
 .hero-image-container {
+    background-color: gray;    
     width: 50%;
-    background-color: gray;
+    height: 100%;
+}
 
-
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    width: 15vh;
+    height: 5vh;
+    margin-top: 1vh;
 }
 
 a {
     color: #E5E7EB;
     text-decoration: none;
-
 }
 
