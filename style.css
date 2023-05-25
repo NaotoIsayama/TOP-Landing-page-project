@@ -146,6 +146,46 @@ button {
     color: #1f2937;
 }
 
+.call-to-action-section {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-bar{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6; 
+    gap: 16px;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 65%;
+    height: 40%;
+}
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+
+}
+.call-to-action-header {
+    font-weight: 700;
+    font-size: 24px;
+    color:#E5E7EB;
+}
+
+.call-to-action-body {
+    color:#E5E7EB;
+}
+
+.call-to-action-signup {
+    color:#E5E7EB;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #E5E7EB;  
+    border-width: 2px;
+    padding: 5px 24px 5px 24px;
+}
 a {
     color: #E5E7EB;
     text-decoration: none;
